@@ -1,3 +1,8 @@
 p{
-	background-color: red;
+	background-color: yellow;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

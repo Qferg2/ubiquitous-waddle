@@ -2,6 +2,8 @@
 <html> <!-- HTML opening tag -->
   <head><title>Example web page</title></head> <!-- head section contains info about the web page -->
 	<link rel="stylesheet" type = "text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="myscript.js"></script>
   <body> <!-- code for what shows on the web page -->
     <h1>Hello, World</h1> <!-- main heading, larger numbers like h2 are for smaller headings -->
     <p> <!-- p tag for paragraphs -->
@@ -11,9 +13,15 @@
       This web page is a demonstration of <b>HTML</b>.
       </pre>
     </p>
-    <img src="TommyJoker.jpg" alt="Tommy Wiseau and the Joker"> <!-- src and alt are attributes. Alt will be read to users with impaired vision -->
-    <p>
+    <img src="TommyJoker.jpg" alt="Tommy Wiseau and the Joker" class="center"> <!-- src and alt are attributes. Alt will be read to users with impaired vision -->
+    <p id="hide">
       I am sorry to show this image here. It is strange and it is wrong and I am <small>sorry</small>.
+    </p>
+	<p class="stl">
+      Hey so uhh I guess this is a 3rd paragraph lol
+    </p>
+	<p class="stl">
+      Hey so uhh I guess this is a 4th paragraph lol
     </p>
   </body>
 </html> <!-- HTML closing tag -->
